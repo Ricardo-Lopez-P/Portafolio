@@ -1,0 +1,81 @@
+.name{
+  color: #fff;
+  text-shadow:
+                0 0 20px #fff, 
+                0 0 30px #fff, 
+                0 0 80px #000000
+  ;
+  transition: a /* Transición suave de color */
+}
+
+.name:hover {
+  text-shadow:
+                0 0 10px #fff, 
+                0 0 20px #fff, 
+                0 0 30px #fff, 
+                0 0 40px #04ff00, 
+                0 0 50px #04ff00, 
+                0 0 60px #04ff00, 
+                0 0 80px #04ff00
+  ;
+  transition: text-shadow 0.2s ease;
+}
+
+.my-image:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.linkedin:hover, .email:hover, .document-cv:hover {
+  transition: 0.3s;
+  transform: scale(1.4);
+
+  filter: drop-shadow(0px 0px 12px #ffffff);
+}
+
+.web-text {
+  text-shadow:
+                0 0 3px #fff,
+                0 0 6px #fff
+  ;
+}
+
+.web-text {
+  font-size: 24px;
+}
+
+.reactIcon, .databaseIcon, .cssIcon, .htmlIcon, .jsIcon, .gitIcon {
+  color: #fff;
+  font-size: 30px;
+  margin-inline: 10px;
+}
+
+.reactIcon {
+  color: #61DAFB;
+  filter: drop-shadow(0px 0px 1.3px #61DAFB);
+}
+
+.databaseIcon {
+  color: #0077ff;
+  filter: drop-shadow(0px 0px 1.3px #0077ff);
+}
+
+.cssIcon {
+  color: #1572B6;
+  filter: drop-shadow(0px 0px 1.3px #1572B6);
+}
+
+.htmlIcon {
+  color: #E34F26;
+  filter: drop-shadow(0px 0px 1.3px #E34F26);
+}
+
+.jsIcon {
+  color: #FFD700;
+  filter: drop-shadow(0px 0px 1.3px #FFD700);
+}
+
+.gitIcon {
+  color: #F05032;
+  filter: drop-shadow(0px 0px 1.3px #F05032);
+}
